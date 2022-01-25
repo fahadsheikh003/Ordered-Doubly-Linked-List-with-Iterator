@@ -38,7 +38,7 @@ public:
 		Node* currnode = head;
 		while (currnode)
 		{
-			this->Append(currnode->data);
+			this->Insert(currnode->data);
 			currnode = currnode->next;
 		}
 	}
@@ -49,7 +49,7 @@ public:
 		Node* currnode = head;
 		while (currnode)
 		{
-			this->Append(currnode->data);
+			this->Insert(currnode->data);
 			currnode = currnode->next;
 		}
 		return *this;
